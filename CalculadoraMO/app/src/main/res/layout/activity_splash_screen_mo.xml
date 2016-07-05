@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="224dp"
+        android:layout_height="224dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:src="@drawable/calc_icon" />
+
+    <TextView
+        android:layout_width="199dp"
+        android:layout_height="69dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/msg"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal|bottom"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="213dp"
+        android:layout_height="97dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/titulo"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal|top"
+        android:gravity="center_vertical|center_horizontal" />
+</FrameLayout>
